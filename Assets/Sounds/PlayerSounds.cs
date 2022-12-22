@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSounds : MonoBehaviour
@@ -7,6 +5,7 @@ public class PlayerSounds : MonoBehaviour
     public AudioSource hit_sound;
     public AudioSource step_sound;
     public AudioSource damage_sound;
+    public AudioSource death_sound;
 
     public void Hit_Sound_Play()
     {
@@ -22,5 +21,10 @@ public class PlayerSounds : MonoBehaviour
     {
         step_sound.pitch = Random.Range(0.9f, 1.1f);
         step_sound.Play();
+    }
+
+    public void Death_Sound_Play()
+    {
+        death_sound.Play();
     }
 }

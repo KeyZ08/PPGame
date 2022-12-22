@@ -1,5 +1,8 @@
 using System;
+using System.Collections;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Entity 
 {
@@ -27,5 +30,17 @@ public class Player : Entity
             HP -= force;
         }
         print("Player hp: " + HP);
+    }
+
+    public override void Death()
+    {
+        base.Death();
+        StartCoroutine(DeathTime());
+    }
+
+    IEnumerator DeathTime()
+    {
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene("DeathMenu");
     }
 }

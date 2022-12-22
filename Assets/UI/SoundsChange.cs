@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -12,6 +10,11 @@ public class SoundsChange : MonoBehaviour
 
     private void Start()
     {
+        if(!PlayerPrefs.HasKey("MusicVolume") && !PlayerPrefs.HasKey("EffectsVolume"))
+        {
+            PlayerPrefs.SetFloat("MusicVolume", 1);
+            PlayerPrefs.SetFloat("EffectsVolume", 1);
+        }
         sliderMusic.value = PlayerPrefs.GetFloat("MusicVolume");
         sliderEffects.value = PlayerPrefs.GetFloat("EffectsVolume");
         mixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, sliderMusic.value));

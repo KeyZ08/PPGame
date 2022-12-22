@@ -1,10 +1,8 @@
 using Character.Enums;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
-using static UnityEditor.PlayerSettings;
 
 public class ShadowMovementController : MovementController
 {
