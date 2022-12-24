@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB9E6041-ABB6-7F60-9D7C-ED59ADB53E75}</ProjectGuid>
+    <ProjectGuid>{30B38E07-4D2D-60BA-2282-348DC69D29CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\WithAssets\Scripts\BasicCameraFollow.cs" />
+    <Compile Include="Assets\UI\GameExit.cs" />
     <Compile Include="Assets\Sounds\PlayerSounds.cs" />
     <Compile Include="Assets\WithAssets\Scripts\IsometricPlayerMovementController.cs" />
     <Compile Include="Assets\Sounds\ShadowSounds.cs" />
@@ -128,7 +129,6 @@
     <Compile Include="Assets\Characters\Scripts\AttackTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\UI\GameExit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -935,11 +935,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{8927DB64-2E7F-05B8-FBAD-9FDC075D0D3D}</Project>
+      <Project>{75D35C6E-5FB8-4CB6-A662-D74D2623E014}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{151F4A60-A971-E58A-E734-D24C507D00EF}</Project>
+      <Project>{E12B6F61-EF7B-99A9-5FED-3E66753C0897}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
   </ItemGroup>
