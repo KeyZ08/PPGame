@@ -7,4 +7,8 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene("Test");
     }
+    public void LoadComics()
+    {
+        SceneManager.LoadScene("Comics");
+    }
 }
