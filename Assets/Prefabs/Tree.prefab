@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5967260755418881146}
   - component: {fileID: 5967260755418881145}
+  - component: {fileID: 9025799272943861255}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -64,6 +65,22 @@ PolygonCollider2D:
       - {x: 0.45378947, y: -0.46184564}
       - {x: 0.5612503, y: -0.038154066}
   m_UseDelaunayMesh: 0
+--- !u!114 &9025799272943861255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967260755418881147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &5967260755543241501
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +113,7 @@ Transform:
   - {fileID: 5967260756228124503}
   - {fileID: 5967260755418881146}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &5967260755543241500
 SortingGroup:

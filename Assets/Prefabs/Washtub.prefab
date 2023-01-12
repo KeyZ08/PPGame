@@ -108,14 +108,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4153575787050884509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.98, y: -7.42, z: -1.8493865}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4153575785915509083}
   - {fileID: 3148205308663054927}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4750550477397663743
 GameObject:
@@ -127,6 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3148205308663054927}
   - component: {fileID: 8456026554327074922}
+  - component: {fileID: 8594631406451585593}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -180,3 +181,19 @@ PolygonCollider2D:
       - {x: 0.5301759, y: -0.21852016}
       - {x: 0.5261869, y: 0.31621855}
   m_UseDelaunayMesh: 0
+--- !u!114 &8594631406451585593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4750550477397663743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
