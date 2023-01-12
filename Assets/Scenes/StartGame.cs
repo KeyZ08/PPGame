@@ -5,7 +5,7 @@ public class StartGame : MonoBehaviour
 {
     public void LoadGame()
     {
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene("Map");
     }
     public void LoadComics()
     {
